@@ -1,6 +1,5 @@
 <?php 
-    $heure = date("h")
-    if ( ( $heure <= "07" ) || ( $heure >= "19" )) {
+    if ( ( date("h") <= "07" ) || ( date("h") >= "19" )) {
         echo '<style> 
                 body {background: black; color: white;}
                 img { filter: invert(100%); -webkit-filter: invert(100%); }
